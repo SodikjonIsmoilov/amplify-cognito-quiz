@@ -17,7 +17,7 @@ const Page = () => {
       <Authenticator>
         {({ signOut, user }) => (
           <main className="bg-white shadow-lg p-6 rounded-lg text-center">
-            <h1 className="text-2xl font-bold mb-4">Welcome, {user?.username}!</h1>
+            <h1 className="text-2xl font-bold mb-4">Welcome</h1>
 
             <Quiz />
             <button
